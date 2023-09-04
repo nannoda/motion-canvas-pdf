@@ -1,6 +1,6 @@
 # motion-canvas-pdf
 
-Demo:
+## Demo
 
 
 
@@ -11,7 +11,7 @@ https://github.com/nannoda/motion-canvas-pdf/assets/114621472/4dcef90d-d0e2-4e41
 
 
 
-Usage:
+## Usage
 
 See example.tsx
 
