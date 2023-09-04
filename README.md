@@ -10,7 +10,7 @@ https://github.com/nannoda/motion-canvas-pdf/assets/114621472/a151b39a-5aac-4209
 
 - Everything from Img component
 - Change page number / background color with signal
-- Get total page numer for the PDF file
+- Get total page numer of the PDF file
 
 ## Usage
 
