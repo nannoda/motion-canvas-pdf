@@ -1,6 +1,6 @@
 {
   "name": "motion-canvas-pdf",
-  "private": true,
+  "description": "Motion Canvas PDF Component",
   "version": "0.0.0",
   "scripts": {
     "serve": "vite",
@@ -9,7 +9,8 @@
   "dependencies": {
     "@motion-canvas/core": "^3.10.0",
     "@motion-canvas/2d": "^3.10.1",
-    "@motion-canvas/ffmpeg": "^1.1.0"
+    "@motion-canvas/ffmpeg": "^1.1.0",
+    "pdfjs-dist": "^3.10.111"
   },
   "devDependencies": {
     "@motion-canvas/ui": "^3.10.0",
