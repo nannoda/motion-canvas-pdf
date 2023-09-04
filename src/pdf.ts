@@ -41,7 +41,7 @@ export class PDF extends Img {
    */
   @initial(new Color('white'))
   @signal()
-  public declare background:SimpleSignal<Color, this>;
+  public declare background: SimpleSignal<Color, this>;
 
   protected static pdfPool: PdfPool = {};
   protected static pagePool: PagePool = {};
@@ -69,14 +69,18 @@ export class PDF extends Img {
     super(props);
   }
 
-  get pageNumInt(): number {
+  protected get pageNumInt(): number {
     return Math.floor(this.currentPageNumber());
   }
 
-  get pdfScale(): number {
+  protected get pdfScale(): number {
     return Math.max(this.scale.x(), this.scale.y());
   }
 
+  /**
+   * The image element for the current page of the PDF.
+   * @protected
+   */
   @computed()
   protected image(): HTMLImageElement {
     const src = viaProxy(this.src());
@@ -136,6 +140,10 @@ export class PDF extends Img {
     return image;
   }
 
+  /**
+   * The background color of the PDF.
+   * @protected
+   */
   protected backgroundHex(): string {
     try {
       return new Color(this.background()).hex();
@@ -144,7 +152,9 @@ export class PDF extends Img {
     }
   }
 
-
+  /**
+   * The PDF document.
+   */
   @computed()
   doc(): PDFDocumentProxy | null {
     const src = viaProxy(this.src());
@@ -180,6 +190,9 @@ export class PDF extends Img {
     return doc.numPages;
   }
 
+  /**
+   * The current page of the PDF.
+   */
   @computed()
   page(): PDFPageProxy | null {
     const src = viaProxy(this.src());
