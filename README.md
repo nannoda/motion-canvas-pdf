@@ -4,9 +4,7 @@
 
 
 
-https://github.com/nannoda/motion-canvas-pdf/src/scenes/assets/demo.mp4
-
-
+https://github.com/nannoda/motion-canvas-pdf/blob/main/src/scenes/assets/demo.mp4
 
 
 
