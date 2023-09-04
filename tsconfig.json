@@ -1,6 +1,7 @@
 {
   "extends": "@motion-canvas/2d/tsconfig.project.json",
   "compilerOptions": {
+    "skipLibCheck": true,
     "baseUrl": "src"
   },
   "include": ["src"]

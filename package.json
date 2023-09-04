@@ -2,6 +2,10 @@
   "name": "motion-canvas-pdf",
   "description": "Motion Canvas PDF Component",
   "version": "0.0.0",
+  "exports": {
+    ".": "./src/pdf.ts"
+  },
+  "types": "./src/pdf.ts",
   "scripts": {
     "serve": "vite",
     "build": "tsc && vite build"
@@ -10,7 +14,8 @@
     "@motion-canvas/core": "^3.10.0",
     "@motion-canvas/2d": "^3.10.1",
     "@motion-canvas/ffmpeg": "^1.1.0",
-    "pdfjs-dist": "^3.10.111"
+    "pdfjs-dist": "^3.10.111",
+    "motion-canvas-pdf": "file:."
   },
   "devDependencies": {
     "@motion-canvas/ui": "^3.10.0",
