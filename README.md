@@ -4,6 +4,10 @@ Demo:
 
 
 
+https://github.com/nannoda/motion-canvas-pdf/assets/114621472/cbb008b6-3945-41e0-a8a4-894f72ec1033
+
+
+
 Usage:
 
 See example.tsx
