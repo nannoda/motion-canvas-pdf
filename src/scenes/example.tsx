@@ -1,5 +1,5 @@
 import {makeScene2D} from '@motion-canvas/2d';
-import {Color, createRef, waitFor} from '@motion-canvas/core';
+import {Color, createRef} from '@motion-canvas/core';
 
 import {PDF} from 'motion-canvas-pdf';
 import pdfUrl from './assets/demo.pdf?url';
